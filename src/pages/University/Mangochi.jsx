@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bannerImg from "../../assets/campus-hero.jpg";
+import bannerImg from "../../assets/university-banner.jpg";
 import campusImg from "../../assets/mangochi-campus.jpg";
 
 import g1 from "../../assets/mangochi/gallery1.jpg";
@@ -30,7 +30,7 @@ export default function Mangochi() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold tracking-wide text-center">
             DMISJBU Mangochi
           </h1>

@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/campus-hero.jpg";
+import bannerImg from "../../assets/banner.jpg";
 import chancellorImg from "../../assets/chancellor.jpg";
 
 export default function ChancellorMessage() {
@@ -15,7 +15,7 @@ export default function ChancellorMessage() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold tracking-wide text-center">
             Message From The Chancellor
           </h1>
@@ -29,7 +29,7 @@ export default function ChancellorMessage() {
         {/* LEFT SIDE - 8 WIDTH */}
         <div className="lg:col-span-7 space-y-6">
           <p className="text-gray-700 text-lg leading-relaxed">
-            With a view to supporting the humanity, we always take measures to extend at most possible service, and that is because the logo of the university is enshrined with Fully Human and Fully Alive. DMISJB University was established to inculcate strong values, discipline and produce technical manpower to the society, has been excelled by the vision, mission in imparting quality education to young minds.nshrined with Fully Human and Fully Alive...
+         With a view to supporting the humanity, we always take measures to extend at most possible service, and that is because the logo of the university is enshrined with Fully Human and Fully Alive. DMISJB University was established to inculcate strong values, discipline and produce technical manpower to the society, has been excelled by the vision, mission in imparting quality education to young minds.
           </p>
 
           <p className="text-gray-700 text-lg leading-relaxed">
@@ -41,7 +41,7 @@ export default function ChancellorMessage() {
           </p>
 
           <p className="text-gray-800 text-lg font-medium">
-            With our quality policies, curricular and extracurricular transactions, we are creating greater avenues to produce better leaders to face the modern challenges in building a greater nation and society on required perspectives.
+          With our quality policies, curricular and extracurricular transactions, we are creating greater avenues to produce better leaders to face the modern challenges in building a greater nation and society on required perspectives.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Let’s work together and grow together!

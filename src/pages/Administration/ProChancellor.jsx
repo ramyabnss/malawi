@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/campus-hero.jpg";
+import bannerImg from "../../assets/banner.jpg";
 import chancellorImg from "../../assets/pro-chancellor.jpg";
 
 export default function ProChancellor() {
@@ -15,7 +15,7 @@ export default function ProChancellor() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold tracking-wide text-center">
             Message From The Pro Chancellor
           </h1>

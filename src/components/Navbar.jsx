@@ -71,7 +71,39 @@ export default function Navbar() {
 
 
       {/* Top Bar */}
-      <div className="bg-[#00008b] text-white text-sm">
+<div className="bg-[#00008b] text-white text-sm">
+  <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+    
+    <div className="flex items-center gap-4">
+      <span className="cursor-pointer hover:text-green-400 transition">Portal</span>
+      <span className="hidden sm:block text-gray-300">|</span>
+      <span className="cursor-pointer hover:text-green-400 transition">Alumni</span>
+    </div>
+
+    <div className="flex items-center gap-3">
+
+      {/* Admission Button */}
+      <Link
+        to="/admission/apply"
+        className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-md text-xs sm:text-sm font-semibold transition"
+      >
+        Apply For Admission
+      </Link>
+
+      
+      {/* Brochure Button */}
+      <a
+  href="/brochure.pdf"
+  download
+  className="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 hover:from-yellow-400 hover:to-red-500 text-white px-4 py-2 rounded-md text-xs sm:text-sm font-semibold transition shadow-lg"
+>
+  Download Brochure
+</a>
+
+    </div>
+  </div>
+</div>
+      {/* <div className="bg-[#00008b] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div className="flex items-center gap-4">
             <span className="cursor-pointer hover:text-green-400 transition">Portal</span>
@@ -86,7 +118,7 @@ export default function Navbar() {
             Apply For Admission
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Nav */}
       <div className="w-full bg-white">

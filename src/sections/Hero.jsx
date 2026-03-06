@@ -25,24 +25,17 @@ export default function UniversitySection() {
       className="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage:
-          "url('src/assets/campus-hero.jpg')",
+          "url('src/assets/homepage.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
 
 
-
-      {/* Floating gradient shapes */}
-      {/* <div className="absolute top-[-100px] left-[-100px] w-72 h-72 bg-pink-400/40 rounded-full filter blur-3xl animate-float1"></div>
-      <div className="absolute bottom-[-120px] right-[-80px] w-96 h-96 bg-blue-400/30 rounded-full filter blur-2xl animate-float2"></div>
-      <div className="absolute top-[30%] left-[70%] w-64 h-64 bg-purple-400/30 rounded-full filter blur-2xl animate-float3"></div> */}
-
-
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-5 py-20 max-w-6xl w-full">
 
-        <div className="absolute top-0 left-10 md:left-20 w-28 h-28 md:w-32 md:h-32 text-black animate-float3 drop-shadow-2xl">
+        {/* <div className="absolute top-0 left-10 md:left-20 w-28 h-28 md:w-32 md:h-32 text-black animate-float3 drop-shadow-2xl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -50,6 +43,11 @@ export default function UniversitySection() {
             className="w-full h-full"
           >
             <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zM12 12l-7-3.18v-1.64L12 9l7-1.82v1.64L12 12z" />
+          </svg>
+        </div> */}
+        <div class="absolute top-0 left-10 md:left-20 w-28 h-28 md:w-32 md:h-32 text-amber-400 animate-float3 drop-shadow-2xl">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-full h-full">
+            <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zM12 12l-7-3.18v-1.64L12 9l7-1.82v1.64L12 12z"></path>
           </svg>
         </div>
 
@@ -70,7 +68,7 @@ export default function UniversitySection() {
               WebkitBackgroundClip: 'text',
               color: 'transparent',
               backgroundImage:
-                'linear-gradient(90deg, rgb(255,180,180), rgb(245,245,245), rgb(180,230,220), rgb(200,180,220))',
+                'linear-gradient(90deg, rgb(185 180 255), rgb(245, 245, 245), rgb(180, 230, 220), rgb(185 180 255))',
               animation: 'gradient-animation 5s ease infinite',
             }}
           >

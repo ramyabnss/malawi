@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Globe, FileText, Phone, Download } from "lucide-react";
-import bannerImg from "../../assets/campus-hero.jpg";
+import bannerImg from "../../assets/admission-banner.jpg";
 
 export default function ApplyForScholarships() {
   return (
@@ -16,7 +16,7 @@ export default function ApplyForScholarships() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold tracking-wide text-center">
             How To Apply For Scholarships
           </h1>

@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/campus-hero.jpg";
+import bannerImg from "../../assets/banner.jpg";
 import { motion } from "framer-motion";
 import { GraduationCap } from "lucide-react";
 
@@ -17,7 +17,7 @@ export default function UniversityCouncil() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold tracking-wide text-center">
             The University Council
           </h1>
