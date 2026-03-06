@@ -34,15 +34,15 @@ export default function ProChancellor() {
 
             <div className="bg-white shadow-2xl rounded-3xl p-6 sticky top-28 w-full">
 
-              <div className="overflow-hidden rounded-2xl group">
-                <img
-                  src={chancellorImg}
-                  alt="Pro Chancellor"
-                  className="w-full h-[600px] object-cover
-                       transition-transform duration-500
-                       group-hover:scale-105"
-                />
-              </div>
+             <div className="overflow-hidden rounded-2xl group">
+  <img
+    src={chancellorImg}
+    alt="Pro Chancellor"
+    className="w-full h-auto md:h-[600px] object-contain md:object-cover
+               transition-transform duration-500
+               group-hover:scale-105"
+  />
+</div>
 
             </div>
           </div>

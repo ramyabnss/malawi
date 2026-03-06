@@ -54,15 +54,15 @@ export default function ChancellorMessage() {
           <div className="">
 
             {/* Bigger Portrait Image */}
-            <div className="overflow-hidden rounded-2xl group">
-              <img
-                src={chancellorImg}
-                alt="Chancellor"
-                className="w-full h-[550px] object-cover
-                     transition-transform duration-500
-                     group-hover:scale-105"
-              />
-            </div>
+          <div className="overflow-hidden rounded-2xl group">
+  <img
+    src={chancellorImg}
+    alt="Chancellor"
+    className="w-full h-auto md:h-[550px] object-contain md:object-cover
+               transition-transform duration-500
+               group-hover:scale-105"
+  />
+</div>
 
 
           </div>

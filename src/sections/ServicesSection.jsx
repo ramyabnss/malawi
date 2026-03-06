@@ -21,9 +21,10 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section className="w-full py-24 bg-white">
-      <div className="max-w-7xl py-16 mx-auto px-6">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+    <section className="w-full py-16 md:py-24 bg-white">
+      <div className="max-w-7xl py-12 md:py-16 mx-auto px-5 md:px-6">
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
 
           {services.map((service, index) => (
             <motion.div
@@ -43,10 +44,10 @@ export default function ServicesSection() {
             >
 
               {/* White Card */}
-              <div className="relative overflow-hidden bg-white rounded-2xl p-10 h-full text-center
+              <div className="relative overflow-hidden bg-white rounded-2xl p-8 md:p-10 h-full text-center
                               transition duration-500 group-hover:shadow-2xl">
 
-                {/* Hover Top → Bottom Gradient Background */}
+                {/* Hover Top → Bottom Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-b 
                                 from-blue-600 to-indigo-700
                                 translate-y-[-100%]
@@ -67,11 +68,11 @@ export default function ServicesSection() {
                     {service.icon}
                   </motion.div>
 
-                  <h2 className="text-3xl font-semibold mb-4 uppercase">
+                  <h2 className="text-2xl md:text-3xl font-semibold mb-4 uppercase">
                     {service.title}
                   </h2>
 
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed text-sm md:text-base">
                     {service.desc}
                   </p>
 
@@ -98,6 +99,7 @@ export default function ServicesSection() {
           }
         `}
       </style>
+
     </section>
   );
 }
