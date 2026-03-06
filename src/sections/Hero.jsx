@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
+import homepage from "../assets/homepage.jpg";
 
 export default function UniversitySection() {
   const stats = [
@@ -21,15 +22,14 @@ export default function UniversitySection() {
   ];
 
   return (
-    <section
-      className="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage:
-          "url('src/assets/homepage.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+   <section
+  className="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
+  style={{
+    backgroundImage: `url(${homepage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
 
 
       {/* Content */}
