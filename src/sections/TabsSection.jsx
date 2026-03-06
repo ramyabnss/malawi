@@ -1,36 +1,40 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import tab1 from "../assets/tab-1.jpg";
+import tab2 from "../assets/tab-2.jpg";
+import tab3 from "../assets/tab-3.jpg";
+import tab4 from "../assets/tab-4.jpg";
+
 export default function TabsSection() {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
     {
       title: "Our Vision",
-      image: "src/assets/tab-1.jpg",
+      image: tab1,
       content:
         "To Spearhead Employable Education and Africa and Become Part of its History",
     },
     {
       title: "Our Mission",
-      image: "src/assets/tab-2.jpg",
+      image: tab2,
       content:
         "Capacity Building of Children Africa to Meet the Emerging Challenges Happening in the world, by Importing Quality Employable Education with Discipline Which Leads to Self-Enlightenment and Development of the Nation.",
     },
     {
       title: "Core Values",
-      image: "src/assets/tab-3.jpg",
+      image: tab3,
       list: [
         "Developing Human resource to serve the nation",
         "Recognizing teaching as a unifying activity",
         "Nurturing Integrity, Creativity, and Academic Freedom",
         "Retaining a willingness to Experiment with New Paradigms",
-
       ],
     },
     {
       title: "Why Choose DMISJBU",
-      image: "src/assets/tab-4.jpg",
+      image: tab4,
       list: [
         "All Programmes are Accredited by National Council for Higher Education (NCHE)",
         "Emphasis on Moral Values and Life Skills",

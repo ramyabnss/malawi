@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
+import heroImage from "../assets/hero-final.jpg";
 
 export default function VideoSection() {
     const [open, setOpen] = useState(false);
@@ -9,13 +10,12 @@ export default function VideoSection() {
         <section className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
 
             {/* Background Image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                    backgroundImage:
-                        "url('src/assets/hero-final.jpg')",
-                }}
-            />
+           <div
+  className="absolute inset-0 bg-cover bg-center"
+  style={{
+    backgroundImage: `url(${heroImage})`,
+  }}
+/>
 
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black/70"></div>
